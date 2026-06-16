@@ -71,6 +71,8 @@ A few observations:
 - The reason is the **class imbalance**: there are far fewer turning frames than straight frames. Even with the weighted loss, the model is conservative and tends to under-steer in sharp turns. We could see this in the sanity-check visualization, where straight and gentle turns were predicted well, but the strongest turns sometimes had a too-small predicted value.
 - Training and validation loss stayed close to each other, so the model is not strongly overfitting. The augmentations and dropout probably helped here.
 - On the real robot, the model drove the track reliably at the normal speed cap. At higher speeds the under-steering became more visible, because the robot has less time to correct in a turn.
+<img width="1429" height="1033" alt="image" src="https://github.com/user-attachments/assets/8898c343-1073-4390-ad73-e7247469b20b" />
+
 
 ## Conclusions
 
