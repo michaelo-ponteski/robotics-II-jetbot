@@ -1,5 +1,6 @@
 # JetBot End-to-End Autonomous Driving
 
+## Team: Latające Szprotki
 ## Team members
 1. Michał Pokładowski 160278
 2. Marek Olejniczak 160303
