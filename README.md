@@ -1,6 +1,13 @@
 # JetBot End-to-End Autonomous Driving
 
+## Team members
+1. Michał Pokładowski 160278
+2. Marek Olejniczak 160303
+3. Tomasz Preś 160305
+4. Karol Okoń 160323
+
 Robotics II project report.
+
 
 The goal of this project was to make a JetBot drive autonomously around a fixed track. We used an end-to-end (behavioral cloning) approach: a single neural network takes one camera image and directly predicts the motor commands. There is no separate lane detection or path planning, the network learns everything from the data we collected by driving the robot ourselves.
 
